@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Navigationbar from "./components/Navbar"
+import Intro from "./components/Intro"
+import Populer from "./components/Populer"
+import Season from './components/Onseason';
+import "./style/landingPage.css"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      
+      <div className='myBG'>
+      <Navigationbar/>
+      <Intro/>
+      </div>
+
+      <div className='Populer'>
+      <Populer/>
+      </div>
+
+      <div className='Onseason'>
+      <Season/>
+      </div>
     </div>
   );
 }

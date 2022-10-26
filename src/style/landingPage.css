@@ -1,0 +1,42 @@
+.myBG{
+    height: 100vh;
+    background: url(../assets/bg/howl.jpg);
+    background-size: cover;
+}
+
+.intro{
+    height:300px;
+    display: flex;
+    justify-content:end;
+    align-items:end;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 2px 2px white;
+    letter-spacing: 4px;
+}
+.atas{
+    font-size:20px;
+    font-weight:600;
+}
+.Populer{
+    background: url(../assets/bg/suzume.jpg);
+    background-size: cover;
+}
+.animeImage{
+    width : 270px;
+    height: 200px;
+    background-color: black;
+    margin: 5px;
+    padding: 5px;
+}
+.images{
+    height:300px;
+
+}
+.Onseason{
+    background: url(../assets/bg/evergarden.png);
+    background-size: cover;
+}
